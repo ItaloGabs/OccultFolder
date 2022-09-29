@@ -10,10 +10,10 @@ Mini programa para esconder pastas dos usuários local:
 # Instrução:
 1.SUBSTITUIR DENTRO DO IF O NOME 'ITARU' PARA O NOME DESEJADO, FAZER O MESMO PARA A SENHA:
 	if valores['usuario'] == 'seunome' and valores['senha'] == 'suasenha':
-	1.1.PARA GERAR O ARQUIVO .EXE COM AS ALTERAÇÕES FEITAS INSTALAR O PYINSTALLER E EXECUTAR A LINHA A SEGUIR:
+	1.1.PARA GERAR O ARQUIVO .EXE COM AS ALTERAÇÕES FEITAS TERA QUE INSTALAR O PYINSTALLER E EXECUTAR A LINHA A SEGUIR DENTRO DE UMA NOVA PASTA + ARQUIVO PY:
 		Pyinstaller --noconsole --icon='iconedesejado' caminhodapasta
 			ex: Pyinstaller --noconsole --icon='C:\Users\user\Desktop\testepasta\iconedesejado' C:\Users\user\Desktop\testepasta\occultFolder.py
-	Obs: pode alterar o nome do arquivo python para um desejado, que o mesmo vai gerar um .exe
+	Obs: pode alterar o nome do arquivo python para um desejado, que o mesmo vai gerar um .exe dentro da pasta **dist**
 2.TODOS OS LOGS DE TENTATIVA DE ACESSO MAL SUCEDIDA SERÃO GERADOS UM TXT DENTRO DA PASTA OCCULTFOLDER
 
 3.OS CAMINHOS DAS PASTAS OCULTADAS TAMBEM SERÃO GERADAS PARA CASO PERCA O CAMINHO
