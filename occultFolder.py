@@ -22,7 +22,7 @@ while True:
     if eventos == Sg.WINDOW_CLOSED:
         break
     if eventos == 'Acessar':
-        if valores['usuario'] == 'ITARU' and valores['senha'] == 'teste1':
+        if valores['usuario'] == 'user' and valores['senha'] == 'senha1':
             print("Usuário logado")
         else:
             print("Usuario ou senha incorreto!")
